@@ -43,14 +43,14 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/masaldestekkanal")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/masaldestek")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/yanilgisohbet")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -83,21 +83,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
+    "START_IMG_URL", "https://graph.org/file/d1edfa94a3f786b389725.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
+    "PING_IMG_URL", "https://graph.org/file/6d79c9ca7e468032488bb.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-STATS_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/6d79c9ca7e468032488bb.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-STREAM_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/6c6cce625f4a721569703.jpg"
+STATS_IMG_URL = "https://graph.org/file/27a61ca0b81fec7299200.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/6c6cce625f4a721569703.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/6c6cce625f4a721569703.jpg"
+STREAM_IMG_URL = "https://graph.org/file/11d9b73e5ee2254a2d713.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/11d9b73e5ee2254a2d713.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/2ce22feb072f7232ef37d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/8adc324a84e6d5f07a2ac.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/8adc324a84e6d5f07a2ac.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/8adc324a84e6d5f07a2ac.jpg"
 
 
 def time_to_seconds(time):
